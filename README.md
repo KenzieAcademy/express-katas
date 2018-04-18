@@ -35,10 +35,10 @@ npm test
 You should then see some output like the following:
 ![test output screenshot](https://raw.githubusercontent.com/kenzieacademy/express-katas/master/test_output.png)
 
-here, you can see that we have several test failing, as well as a hint at what we were expecting.
+Here, you can see that we have several test failing, as well as a hint at what we were expecting.
 
 ### Completing Katas
-Next, you should open up whichever kata you want to work on next. we suggest starting with `katas/routing.js`. in each module, you'll find explaining what feature to implement. For example, the first "routing" kata add a route the responds to GET requests to /hello and responds with "Hello, World!". The answer to that one would look like this:
+Next, you should open up whichever kata you want to work on next. we suggest starting with `katas/routing.js`. in each module, you'll find a comment explaining what feature to implement. For example, the first "routing" kata add a route the responds to GET requests to /hello and responds with "Hello, World!". The answer to that one would look like this:
 ```javascript
 app.get('/hello', (req, res) => {
     res.send('Hello, World!');
