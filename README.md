@@ -3,13 +3,22 @@ In this exercise, you'll be practicing using several of Express.js's features.
 
 # Getting Started
 Getting started is a matter of doing the following:
-1. Install dependencies
-2. Run tests
-3. Complete katas
+1. Fork and clone this repository
+2. Install dependencies
+3. Run tests
+4. Complete katas
+
+## Cloning this repository
+Click the "Fork" button in the top right corner of this repository's GitHub page. Once you've done so, you'll need to clone the repository using the following commands:
+```bash
+git clone git@github.com:<your user name>/express-katas
+cd express-katas
+```
+
+Being sure to replace `<your username>` with your actual github username.
 
 ## Installing Dependencies
-To install dependencies, fork this repository, and clone it clone it to your
-machine. From the root of the repository. Remember that because you are
+Remember that because you are
 _forking_ a repository, there is no need to create a new directory or run
 `npm init` in it first. Once you have this repository on your machine, you
 can install the dependencies from the root of the repository using `npm`:
